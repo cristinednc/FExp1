@@ -12,7 +12,6 @@
     overflow: hidden;
   }
   
-  /* Main layout */
   .landing-page {
     position: relative;
     width: 100%;
@@ -20,7 +19,6 @@
     overflow: hidden;
   }
   
-  /* Title section */
   .title-section {
     position: absolute;
     top: 45%;
@@ -66,7 +64,6 @@
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.3);
   }
   
-  /* Purple drops in top left */
   .purple-drops {
     position: absolute;
     width: 361.8px;
@@ -76,7 +73,6 @@
     z-index: 1;
   }
   
-  /* Pink letter S decoration */
   .pink-letter {
     position: absolute;
     width: 726.2px;
@@ -87,7 +83,6 @@
     z-index: 1;
   }
   
-  /* Blue oval background */
   .blue-oval {
     position: absolute;
     width: 800px;
@@ -97,7 +92,6 @@
     z-index: 2;
   }
   
-  /* Harper character */
   .harper {
     position: absolute;
     width: 731.6px;
@@ -107,7 +101,6 @@
     z-index: 3;
   }
   
-  /* Musical notes */
   .notes {
     position: absolute;
     width: 780px;
@@ -118,7 +111,6 @@
     z-index: 4;
   }
   
-  /* Purple sphere */
   .purple-sphere {
     position: absolute;
     width: 250px;
@@ -129,7 +121,6 @@
     animation: float 8s infinite ease-in-out;
   }
   
-  /* Pink sphere */
   .pink-sphere {
     position: absolute;
     width: 200px;
@@ -140,7 +131,6 @@
     animation: float 6s infinite ease-in-out reverse;
   }
   
-  /* Animations */
   @keyframes float {
     0%,
     100% {
@@ -150,8 +140,7 @@
       transform: translateY(-20px);
     }
   }
-  
-  /* Page 2 specific styles */
+
   .mushroom {
     position: absolute;
     width: 820.1px;
@@ -236,14 +225,13 @@
     }
   }
   
-  /* Story text positioning for page 2 */
   .page2 .story-text-container {
     top: 30%;
     left: 40%;
     width: 55%;
     max-width: 550px;
   }
-  /* Page 3 specific styles */
+
   .page3 {
     background: radial-gradient(circle at 0% 0%, #fae0e9, #eee3fb, #e4effe);
   }
@@ -276,7 +264,6 @@
     animation: float 6s infinite ease-in-out;
   }
   
-  /* Story text positioning for page 3 */
   .page3 .story-text-container {
     top: 15%;
     left: 50%;
@@ -287,7 +274,6 @@
     z-index: 5;
   }
   
-  /* Animation for harper */
   @keyframes bounce {
     0%,
     100% {
@@ -297,7 +283,7 @@
       transform: translateY(-15px);
     }
   }
-  /* Page 4 specific styles */
+ 
   .page4 {
     background: radial-gradient(circle at 0% 0%, #fae0e9, #eee3fb, #e4effe);
   }
@@ -329,8 +315,7 @@
     top: 25%;
     z-index: 2;
   }
-  
-  /* Story text positioning for page 4 */
+
   .page4 .story-text-container {
     position: absolute;
     top: 380px;
@@ -341,14 +326,14 @@
     text-align: center;
     z-index: 5;
   }
-  /* Story Pages Styles */
+
   .story-page {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
   }
-  /* Page 5 specific styles */
+  
   .page5 {
     background: #000;
     overflow: hidden;
@@ -382,7 +367,6 @@
     z-index: 3;
   }
   
-  /* Story text positioning for page 5 */
   .page5 .story-text-container {
     position: absolute;
     top: 25%;
@@ -403,7 +387,6 @@
     margin-bottom: 15px;
   }
 
-/* Page 6 specific styles */
 .page6 {
     background: radial-gradient(circle at 0% 0%, #fae0e9, #eee3fb, #e4effe);
     overflow: hidden;
@@ -448,7 +431,6 @@
     animation: bounce 3s infinite ease-in-out;
   }
   
-  /* Story text positioning for page 6 */
   .page6 .story-text-container {
     position: absolute;
     font-size: 22px;
@@ -461,7 +443,6 @@
     z-index: 5;
   }
   
-/* Page 7 specific styles */
 .page7 {
     background: radial-gradient(circle at 0% 0%, #fae0e9, #eee3fb, #e4effe);
     overflow: hidden;
@@ -503,7 +484,6 @@
     z-index: 5;
   }
   
-  /* Story text positioning for page 7 */
   .page7 .story-text-container {
     position: absolute;
     top: 20%;
@@ -517,7 +497,7 @@
     color: #333;
     z-index: 5;
   }
-/* Page 8 specific styles */
+
 .page8 {
     background: url("images/bg2.png") no-repeat;
     background-size: cover;
@@ -525,7 +505,6 @@
     overflow: hidden;
   }
   
-  /* Story text positioning for page 8 */
   .page8 .story-text-container {
     position: absolute;
     top: 60px;
@@ -552,7 +531,7 @@
       transform: translateX(5px);
     }
   }
-  /* Story Text Container */
+
   .story-text-container {
     position: absolute;
     top: 40%;
@@ -571,7 +550,6 @@
     margin-bottom: 15px;
   }
   
-  /* Navigation Buttons */
   .navbtn1 {
     position: absolute;
     bottom: 35%;
@@ -665,7 +643,6 @@
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   }
   
-  /* Page 1 Specific Elements */
   .page1 {
     background: radial-gradient(circle at 0% 0%, #fae0e9, #eee3fb, #e4effe);
   }
